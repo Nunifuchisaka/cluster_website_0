@@ -10,9 +10,14 @@ img {
 ul {
   display: grid;
   gap: 10px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   list-style: none;
   padding: 0;
+}
+@media (max-width: 767px) {
+  ul {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 ul figure {
   margin: 0;
@@ -39,7 +44,7 @@ ul figure {
     <li>
       <a href="https://cluster.mu/w/fdaf6a03-e3f5-4766-b95f-61baaa255c64" target="_blank">
         <figure>
-          <img src="img\97467130-10a9-4bc4-a523-bbb783b39e50.jpg" alt="">
+          <img src="img\vt_02d3f0714f0afbdeb7bfd99138.jpg" alt="">
           <figcaption>ぬにふちさかの部屋</figcaption>
         </figure>
       </a>
@@ -47,7 +52,7 @@ ul figure {
     <li>
       <a href="https://cluster.mu/w/42285102-dddb-48ea-a67b-51b5e1570153" target="_blank">
         <figure>
-          <img src="img\97467130-10a9-4bc4-a523-bbb783b39e50.jpg" alt="">
+          <img src="img\vt_99196a504bccf9da1d844972cb.jpg" alt="">
           <figcaption>狭くて暗い。</figcaption>
         </figure>
       </a>
@@ -55,7 +60,7 @@ ul figure {
     <li>
       <a href="https://cluster.mu/w/93b59eb7-97c6-461c-b589-715fa1f62631" target="_blank">
         <figure>
-          <img src="img\97467130-10a9-4bc4-a523-bbb783b39e50.jpg" alt="">
+          <img src="img\vt_c8f2b11fc8f3d4e962a3cd37a4.jpg" alt="">
           <figcaption>白くて丸い。</figcaption>
         </figure>
       </a>
@@ -80,5 +85,6 @@ if ( true ) {
   $p1.innerHTML = 'Hellow World.';
 }
 </script>
+<script src="cluster_script.js"></script>
 </body>
 </html>
